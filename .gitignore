@@ -14,3 +14,6 @@
 _build/
 .venv/
 __pycache__/
+.manim/
+media/
+src/notebooks/rigid_body_rotation.mp4
