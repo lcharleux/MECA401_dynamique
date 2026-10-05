@@ -1,0 +1,22 @@
+version: 1
+project:
+  id: meca401-dynamique
+  title: Mécanique dynamique
+  description: Cours de mécanique dynamique, construit avec MyST Markdown et Jupyter Book.
+  authors:
+    - name: Ludovic Charleux
+  toc:
+    - file: src/index.md
+    - title: Cours
+      children:
+        - file: src/dynamique/introduction.md
+    - title: Expérimenter
+      children:
+        - file: src/notebooks/README.md
+site:
+  template: book-theme
+  options:
+    favicon: src/assets/favicon.svg
+    logo_text: MECA401 · Dynamique
+    hide_authors: true
+    style: src/styles/site.css

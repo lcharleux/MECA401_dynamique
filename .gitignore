@@ -1,0 +1,16 @@
+*.aux
+*.log
+*.maf
+*.fls
+*.mtc*
+*.toc
+*.out
+*.blg
+*.fdb_latexmk
+*.pyc
+*.py~
+*.ipynb_checkpoints
+**/.DS_Store
+_build/
+.venv/
+__pycache__/
